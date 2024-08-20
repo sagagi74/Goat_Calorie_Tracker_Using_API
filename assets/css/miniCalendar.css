@@ -1,0 +1,74 @@
+#mini-calendar-outter-div {
+    width: 400px;
+    height: 250px;
+}
+
+#mini-calendar-section {
+    width: 100%;
+    border-right: 1px solid black;
+    border-radius: 0 5px 0 0;
+}
+
+#mini-calendar-anchortag {
+    text-decoration: none;
+    font-size: 30px;
+}
+
+#month-name {
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    background-color: #552583;
+    color: #fdb927;
+    font-size: 1.3em;
+    border-radius: 5px 5px 0 0;
+}
+
+#mini-calendar-container {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-size: 0.7em;
+    border-left: 1px solid black;
+}
+
+#mini-calendar {
+    display: flex;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+}
+
+#mini-calendar .col {
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+/* turns off auto bootstrap styling that messes with calendar layout */
+#mini-calendar .row {
+    --bs-gutter-x: 0;
+}
+
+/* today's date */
+.todays-date { 
+    background-color: #fefe33;
+    color: black;
+}
+
+.target-met {
+    background-color: rgb(68, 233, 68);
+    color: black;
+}
+
+.target-passed {
+    background-color: red;
+    color: black;
+}
+
+/* other days in current month */
+.other-days {
+    background-color: white;
+    color: black;
+}
+
+/* days that aren't in the current month */
+.not-current-month {
+    color: rgba(128, 128, 128, 0.6);
+    background-color: white;
+}

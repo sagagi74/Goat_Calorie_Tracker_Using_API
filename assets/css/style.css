@@ -1,0 +1,92 @@
+:root {
+  --backgroundcolor: #f8f8e4;
+  --yellowtext: #fdb927;
+  --maincolor: #552583;
+  --hovercolor: #fdb927;
+  --secondarybar: #552583;
+  --pastdate: white;
+  --presentdate: #fefe33;
+  --closebutton: red;
+}
+
+h1 {
+  font-family: 'Rubik Lines', sans-serif;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6, 
+th,
+button,
+nav {
+  font-family: 'Marko One', sans-serif;
+}
+
+#calendar-link {
+  color: var(--maincolor);
+  background-color: var(--yellowtext);
+  border: none;
+  border-radius: 10px;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+#calendar-link:hover {
+  color: var(--yellowtext);
+  background-color: var(--maincolor);
+  border: 2px solid var(--yellowtext);
+}
+
+body {
+  font-family: 'Petrona', sans-serif;
+  font-weight: 400;
+  background-color: var(--backgroundcolor);
+}
+
+.card-body, .user-input-container, .user-input-container li {
+  background-color: white;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+}
+
+.header,
+.custom-modal-header,
+.custom-card-header,
+.btn-custom {
+  background-color: var(--maincolor);
+  color: var(--yellowtext);
+}
+
+.btn-custom:hover {
+  background-color: var(--hovercolor);
+  color: #552583;
+}
+
+.btn-sm:hover {
+  color: var(--closebutton);
+}
+
+.table-custom th {
+  background-color: var(--secondarybar);
+  color: var(--yellowtext);
+}
+
+.project-late {
+  background-color: var(--pastdate);
+}
+
+.project-today {
+  background-color: var(--presentdate);
+}
+
+
+
